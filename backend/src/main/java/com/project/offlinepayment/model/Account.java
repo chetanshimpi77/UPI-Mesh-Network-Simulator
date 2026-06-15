@@ -24,4 +24,10 @@ public class Account {
 
     @Version
     private Long version;
+
+    public Account(String vpa, String holderName, BigDecimal balance) {
+        this.vpa = vpa;
+        this.holderName = holderName;
+        this.balance = balance;
+    }
 }
