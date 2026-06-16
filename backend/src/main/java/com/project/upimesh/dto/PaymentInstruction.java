@@ -1,4 +1,4 @@
-package com.project.offlinepayment.model;
+package com.project.upimesh.dto;
 
 import java.math.BigDecimal;
 

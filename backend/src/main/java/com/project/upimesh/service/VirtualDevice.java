@@ -1,10 +1,10 @@
-package com.project.offlinepayment.service;
+package com.project.upimesh.service;
 
 import java.util.Collection;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import com.project.offlinepayment.model.MeshPacket;
+import com.project.upimesh.dto.MeshPacket;
 
 public class VirtualDevice {
 

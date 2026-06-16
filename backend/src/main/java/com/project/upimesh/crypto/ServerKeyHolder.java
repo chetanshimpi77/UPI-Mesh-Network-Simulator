@@ -1,4 +1,4 @@
-package com.project.offlinepayment.crypto;
+package com.project.upimesh.crypto;
 
 import jakarta.annotation.PostConstruct;
 import org.slf4j.Logger;

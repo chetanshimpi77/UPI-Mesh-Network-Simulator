@@ -1,4 +1,4 @@
-package com.project.offlinepayment.service;
+package com.project.upimesh.service;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -12,7 +12,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
-import com.project.offlinepayment.model.MeshPacket;
+import com.project.upimesh.dto.MeshPacket;
 
 /**
  * Simulates the Bluetooth mesh.
@@ -142,5 +142,5 @@ public class MeshSimulatorService {
 
     public record GossipResult(int transfers, Map<String, Integer> deviceCounts) {}
 
-    public record BridgeUpload(String brideNodeId, MeshPacket packet) {}
+    public record BridgeUpload(String bridgeNodeId, MeshPacket packet) {}
 }

@@ -1,4 +1,4 @@
-package com.project.offlinepayment.service;
+package com.project.upimesh.service;
 
 import java.math.BigDecimal;
 import java.time.Instant;
@@ -10,11 +10,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.project.offlinepayment.model.Account;
-import com.project.offlinepayment.model.AccountRepository;
-import com.project.offlinepayment.model.PaymentInstruction;
-import com.project.offlinepayment.model.Transaction;
-import com.project.offlinepayment.model.TransactionRepository;
+import com.project.upimesh.dto.PaymentInstruction;
+import com.project.upimesh.model.Account;
+import com.project.upimesh.model.Transaction;
+import com.project.upimesh.repository.AccountRepository;
+import com.project.upimesh.repository.TransactionRepository;
 
 
 @Service

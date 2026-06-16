@@ -1,4 +1,4 @@
-package com.project.offlinepayment.model;
+package com.project.upimesh.dto;
 
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;

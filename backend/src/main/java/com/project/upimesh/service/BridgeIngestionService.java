@@ -1,4 +1,4 @@
-package com.project.offlinepayment.service;
+package com.project.upimesh.service;
 
 import java.time.Instant;
 
@@ -8,10 +8,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import com.project.offlinepayment.crypto.HybridCryptoService;
-import com.project.offlinepayment.model.MeshPacket;
-import com.project.offlinepayment.model.PaymentInstruction;
-import com.project.offlinepayment.model.Transaction;
+import com.project.upimesh.crypto.HybridCryptoService;
+import com.project.upimesh.dto.MeshPacket;
+import com.project.upimesh.dto.PaymentInstruction;
+import com.project.upimesh.model.Transaction;
 
 @Service
 public class BridgeIngestionService { // handles packet arriving from the bluetooth mesh network

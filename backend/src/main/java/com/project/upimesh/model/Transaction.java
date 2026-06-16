@@ -1,4 +1,4 @@
-package com.project.offlinepayment.model;
+package com.project.upimesh.model;
 
 import java.math.BigDecimal;
 import java.time.Instant;

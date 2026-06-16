@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.project</groupId>
-	<artifactId>offlinepayment</artifactId>
+	<artifactId>upimesh</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name/>
 	<description/>
